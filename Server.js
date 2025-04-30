@@ -15,7 +15,7 @@ const User_api = require('./API/UserApi')
 
 // let todos = [];
 
-mongoose.connect('mongodb://localhost:27017/backend-mern')
+mongoose.connect('mongodb+srv://kowsukisri:root@cluster0.qpsp5al.mongodb.net/backend-mern')
 
 .then((connection)=>{
     if(connection){
